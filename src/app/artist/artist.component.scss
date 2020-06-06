@@ -1,0 +1,23 @@
+p {
+    line-height: 27px;
+}
+img{
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 120px;
+}
+
+a {
+    color: gray;
+    margin-left: 15px;
+}
+
+mat-dialog-content{
+    max-height: 800px;
+}
+
+#feature{
+    a{
+        margin-left: unset;
+    }
+}

@@ -1,0 +1,76 @@
+.container {
+    margin-top: 66px;
+    position: fixed;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    max-width: 100%;
+    padding: 0px;
+
+    .col-4{
+        background: black;
+        color: white;
+        width: 100%;
+        height: 100%;
+        background-image: url(/assets/images/besa.jpg);
+        background-size: cover;
+        // filter: grayscale(1);
+    }
+    .row{
+        height: 100%;
+    }
+}
+
+// .col-8{
+//     h1{
+//         color: white;
+//         text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+//     }
+// }
+
+a{
+    color: #808080 !important;
+}
+
+div#moreArtists {
+    width: 90%;
+    height: 300px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.book_artist{
+    margin-left: 15px;
+}
+
+.readMore{
+    cursor: pointer;
+}
+
+.ThuliGrey .container {
+    height: auto;
+}
+
+#minBio{
+    width: 90%;
+}
+
+.socials{
+    margin-bottom: 100px !important;
+    display:flow-root;
+    margin-left: 0px !important;
+    a{
+        margin-left: 10px;
+    }
+}
+
+.Thuli_img{
+    border-radius: 50%;
+    filter: grayscale(1);
+}
+
+.col-4 div {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 143px;
+    margin-left: 15px;
+}

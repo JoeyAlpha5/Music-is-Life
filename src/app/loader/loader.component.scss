@@ -1,0 +1,49 @@
+$primary: #000000;
+$secondary: #ffffff;
+$tertiary: #e9b213;
+$tertiary: #e9b213;
+$sliderTwo:#F44336; 
+$sliderThree:#009688;
+
+#loaderContent{
+    width: 100%;
+    height: 100%;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    background: $secondary;
+    position: fixed;
+}
+
+#mil-logo{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 150px;
+}
+
+div#progressBar {
+    width: 100%;
+    height: 10px;
+    background: hsla(0, 0%, 50%, 0.18);
+}
+div#innerProgressBar {
+    height: 100%;
+    background: $tertiary;
+    float: left;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    animation-name: move;
+    animation-duration: 5s;
+}
+
+
+@keyframes move {
+    from {
+      width: 5%;
+    }
+    to{
+      width: 100%;
+      background: $sliderThree;
+    }
+  }

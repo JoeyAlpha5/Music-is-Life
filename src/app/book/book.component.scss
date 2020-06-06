@@ -1,0 +1,44 @@
+p {
+    line-height: 27px;
+}
+img{
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 120px;
+}
+
+a {
+    color: gray;
+    margin-left: 15px;
+}
+
+mat-dialog-content{
+    max-height: 800px;
+}
+
+form{
+    width: 1200px;
+}
+
+.form-control{
+    width: 85% !important;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+#messageSent{
+    color: yellowgreen;
+}
+
+button{
+    background-color: black;
+    color: white;
+}
+
+@media (max-width:1000px){
+    form{
+        width: unset;
+    }
+}

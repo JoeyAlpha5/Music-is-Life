@@ -1,0 +1,51 @@
+<app-header></app-header>
+<div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div>
+          <h1>Besa Pharaoh</h1>
+          <div class="navbar-nav ms-auto socials">
+            <a href="https://twitter.com/BesaPharaoh" target="_blank"><i class="fab fa-twitter navIcon"></i></a>
+            <a href="https://www.instagram.com/besapharaoh/" target="_blank"><i class="fab fa-instagram navIcon"></i></a>
+            <a href="https://www.facebook.com/besa.k.chungu" target="_blank"><i class="fab fa-facebook navIcon"></i></a>
+            <a href="https://www.youtube.com/channel/UCNx4NhCAHJT1hkGWk607ESw" target="_blank"><i class="fab fa-youtube icon"></i></a>
+            <a href="https://soundcloud.com/besapharaoh" target="_blank"><i class="fab fa-soundcloud icon"></i></a>
+          </div>
+          <button class="viewBtn" (click)="bookArtist('Besa')">
+            Book Artist
+          </button>
+        </div>
+      </div>
+      <div class="col-8">
+          <h2 id="artisyName">Besa Pharaoh</h2>
+          <p id="minBio">
+            Besa Chungu, better known as ‘Besa Pharaoh’, is a Hip Hop musician based in South Africa. Besa Pharaoh provides a combination of eccentric, yet nostalgic street sound. This nostalgic street element is also seen in his stage image yet also being influenced by Caribbean clothing and jewelry, African patterns and other sources of inspiration.
+          </p>
+          <p class="readMore" ><span (click)="viewArtist('Besa')"><u>Read more..</u></span> <span (click)="bookArtist('Besa Pharaoh')" class="book_artist"><u>Book artist</u></span></p>
+          <div id="moreArtists">
+            <div class="ThuliGrey">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h2>Thuli Grey</h2>
+                    <p>
+                      Nokuthula Mncube (born October 30, 1993) better
+                      known by her stage name Thuli Grey is a South
+                      African female house vocalist who was born in the
+                      East Rand, and raised in the Vaal Triangle. She is
+                      currently a 3rdyear student in Human Resources
+                      Management at the Tshwane University of Technology and wishes to further her studies
+                      in Forensic Psychology.
+                    </p>
+                    <p class="readMore"><span (click)="viewArtist('Thuli')"><u>Read more..</u></span> <span (click)="bookArtist('Thuli')" class="book_artist"><u>Book Artists</u></span></p>
+                  </div>
+                  <div class="col">
+                    <img class="Thuli_img" src="../assets/images/Thuli.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>

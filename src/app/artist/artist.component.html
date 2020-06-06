@@ -1,0 +1,34 @@
+<mat-dialog-content class="mat-typography">
+<div *ngFor="let artists of artist">
+    <div id="socials">
+        <img src="{{ artists.img}}" >
+        <div>
+            <a href="{{artists.twitter}}" target="_blank"><i class="fab fa-twitter navIcon"></i></a>
+            <a href="{{artists.insta}}" target="_blank"><i class="fab fa-instagram navIcon"></i></a>
+            <a href="{{artists.facebook}}" target="_blank"><i class="fab fa-facebook navIcon"></i></a>
+            <a href="{{artists.youtube}}" target="_blank"><i class="fab fa-youtube icon"></i></a>
+            <a href="{{artists.soundcloud}}" target="_blank"><i class="fab fa-soundcloud icon"></i></a>
+        </div>
+    </div>
+    <br/>
+    <h1 id="artist_name">
+        {{ artists.artist_name }}
+    </h1>
+    <p>
+        {{ artists.parag1 }}
+    </p>
+    <p>
+        {{ artists.parag2 }}
+    </p>
+    <p>
+        {{ artists.parag3 }}
+    </p>
+    <p>
+        {{ artists.parag4 }}
+    </p>
+    <p *ngIf="artists.feature" id="feature">
+        <b>Featured in: </b><br>
+        <a href="{{artists.feature}}" target="_blank">{{ artists.feature }}</a>
+    </p>
+</div>
+</mat-dialog-content>

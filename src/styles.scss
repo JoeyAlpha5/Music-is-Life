@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+// Glegoo,'Josefin Sans',sans-serif
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@font-face{
+    font-family: Glegoo;
+    src: url(/assets/fonts/Glegoo-Regular.ttf);
+}
+@font-face{
+    font-family: Josefin Sans;
+    src: url(/assets/fonts/JosefinSans-Thin.ttf);
+}
+
+body{
+    font-family:Glegoo,'Josefin Sans',sans-serif ;
+}
+
+button.viewBtn {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    background: transparent;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

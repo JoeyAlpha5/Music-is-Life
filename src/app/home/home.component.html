@@ -1,0 +1,59 @@
+<app-header></app-header>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel"  data-interval="10000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-8 videoImage1">
+                  <i class="fas fa-volume-mute muteIcon" *ngIf="muted == true" (click)="unmute('videoImage')"></i>
+                  <i class="fas fa-volume-up muteIcon" *ngIf="muted == false" (click)="mute('videoImage')"></i>
+                  <video muted="muted" id="videoImage" class="sliderImg videoImage"  autoplay loop>
+                    <source src="../assets/videos/yellowmic.mp4#t=6.8">
+                  </video>
+              </div>
+
+              <div class="col-sm-4 bannerRight">
+                <h1>Besa Pharaoh – Listen To The Kids</h1>
+                <div class="socials">
+                    <a href="https://www.youtube.com/watch?v=Dz5cMG5g5MY" target="_blank"><i class="fab fa-youtube icon"></i></a>
+                    <a href="https://soundcloud.com/besapharaoh" target="_blank"><i class="fab fa-soundcloud icon"></i></a>
+                    <i class="fab fa-apple icon emptyIcon"></i>
+                    <i class="fab fa-spotify icon emptyIcon"></i>
+              </div>
+                <p>
+                  <br><br>'Listen To The Kids' is the yet to be released banger by Besa Pharaoh, produced by Oshoku. 
+                  The song is a metaphor of sort exploring the idea of the childhood story of the pied piper. 
+                  This is a clip of Besa Pharaoh's in studio performance as recorded by Mbono Media.
+                </p>
+                <button type="button" class="btn btn-dark Btn1">View more videos</button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="container aboutCont aboutMiL">
+    <div class="row row-cols-4">
+      <div class="col colLeft">
+        <div>
+          <img src="../assets/images/MIL Logoo.png">
+        </div>
+      </div>
+      <div class="col-6">
+      <h1>About MiL Crew</h1>
+        <p>Mil Crew is a artist management and event organising company.  As event organisers,  we have established our name in Kempton Park and have since spread out to other parts of Ekhurhuleni and then Johannesburg with high respect from other musicians aiming to achieve success through hard work & persistence.</p>
+      </div>
+      <div class="col">
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="container MiL_line">
+    <div class="row row-cols-4">
+      <div class="col-sm-8 colLeft">
+      </div>
+      <div class="col-sm-4 mil_line_right">
+      </div>
+    </div>
+  </div>
