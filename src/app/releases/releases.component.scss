@@ -31,3 +31,9 @@ div#releasesesBanner {
 .nextRows{
     margin-top: 40px;
 }
+
+@media (max-width:1000px){
+    iframe {
+        width: 99% !important;
+    }
+}

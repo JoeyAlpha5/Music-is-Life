@@ -51,7 +51,7 @@ export class BookComponent implements OnInit {
         facebook:"https://www.facebook.com/thuli.grey.12",
         soundcloud:"https://soundcloud.com/thuli-grey-789271398",
         youtube:"https://www.youtube.com/channel/UC2WPbq6O7pFsWVlFc7PQ0Rw",
-        img:"../assets/images/Thuli.jpg",
+        img:"assets/images/Thuli.jpg",
         artist_name:"Thuli Grey", 
 
       }
@@ -64,7 +64,7 @@ export class BookComponent implements OnInit {
         facebook:"https://www.facebook.com/besa.k.chungu",
         soundcloud:"https://soundcloud.com/besapharaoh",
         youtube:"https://www.youtube.com/channel/UCNx4NhCAHJT1hkGWk607ESw",
-        img:"../assets/images/besa_img.jpg",
+        img:"assets/images/besa_img.jpg",
         artist_name:"Besa Pharaoh", 
       }
       this.artist.push(Besa)

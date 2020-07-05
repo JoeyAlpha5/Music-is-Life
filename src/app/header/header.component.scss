@@ -1,66 +1,81 @@
 $primary: #000000;
 $secondary: #ffffff;
 $tertiary: #e9b213;
-$sliderTwo:#F44336; 
+$sliderTwo:#F44336;
 $sliderThree:#009688;
-#topLine{
-    width: 100%;
-    height: 3px;
-    background:$tertiary;
-    position: fixed;
-    z-index: 99999;
+
+#topLine {
+  width: 100%;
+  height: 3px;
+  background: $tertiary;
+  position: fixed;
+  z-index: 99999;
 }
 
-#line2{
-background: $sliderTwo;
-}
-#line3{
-    background: $sliderThree;
+#line2 {
+  background: $sliderTwo;
 }
 
-#line1,#line2,#line3{
-    width: 33%;
-    height: 100%;
-    float: left;
+#line3 {
+  background: $sliderThree;
 }
+
+#line1,
+#line2,
+#line3 {
+  width: 33%;
+  height: 100%;
+  float: left;
+}
+
 a.nav-link {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 a.nav-link:hover {
-    border-bottom: 1px solid #e9b213;
+  border-bottom: 1px solid #e9b213;
 }
 
 img {
-    height: 40px;
+  height: 40px;
 }
 
-.bg-dark{
-    background: $secondary !important;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
+.bg-dark {
+  background: $secondary !important;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
 }
 
-a.nav-link{
-    color: $primary !important;
+a.nav-link {
+  color: $primary !important;
 }
 
 .navIcon {
-    margin-right: 15px;
-    color: #000000;
+  margin-right: 15px;
+  color: #000000;
 }
 
 .navbar-dark .navbar-toggler {
-    color: rgba(0, 0, 0, 0.5);
-    border-color: rgba(0, 0, 0, 0.1);
-    background: black;
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
+  background: black;
 }
 
 
-.navIcon:hover{
-    color: black;
-    cursor: pointer;
+.navIcon:hover {
+  color: black;
+  cursor: pointer;
 }
 
 
+@media (max-width:800px) {
+  .bg-dark {
+    top: 0;
+  }
+
+  #topLine {
+    top: 0;
+  }
+
+}
