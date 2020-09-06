@@ -16,6 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { VideosComponent } from './videos/videos.component';
 import { EventsComponent } from './events/events.component';
 import { ViewEventComponent } from './view-event/view-event.component';
+import { PlayVideoComponent } from './play-video/play-video.component';
+import { YtPlayerAngularModule } from 'yt-player-angular';
 
 
 @NgModule({
@@ -30,7 +32,8 @@ import { ViewEventComponent } from './view-event/view-event.component';
     BookComponent,
     VideosComponent,
     EventsComponent,
-    ViewEventComponent
+    ViewEventComponent,
+    PlayVideoComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +41,8 @@ import { ViewEventComponent } from './view-event/view-event.component';
     BrowserAnimationsModule,
     FormsModule,
     MatDialogModule,
-    HttpClientModule
+    HttpClientModule,
+    YtPlayerAngularModule
   ],
   providers: [],
   bootstrap: [AppComponent]

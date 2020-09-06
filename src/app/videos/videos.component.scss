@@ -1,7 +1,7 @@
 div#releasesesBanner {
     width: 100%;
     height: 200px;
-    background: #F44336;
+    background: #000000;
     position: absolute;
     margin-top: 66px;
     color: white;
@@ -29,13 +29,92 @@ div#releasesesBanner {
 }
 
 
-.row{
-    display: unset;
+// .row{
+//     display: unset;
+// }
+
+.card{
+    width: 100% !important;
+    height: 400px;
+    // box-shadow: 0 2px 6px rgba(112,112,112,0.2);
+    border: 0px;
+}
+
+.card-body{
+    padding: 0px !important;
+}
+
+.videoOverlay {
+    width: 100%;
+    height: 100%;
+    background: hsl(0deg 0% 0% / 7%);
+    cursor: pointer;
+}
+
+.videoOverlay:hover{
+    background: rgb(0 0 0 / 40%);
 }
 
 .nextRow{
     margin-top: 40px;
 }
+
+.col-sm-4, .col-md-4, .col-md-6, .col-lg-4 {
+    padding: 0px !important;
+}
+
+
+.container{
+    margin-bottom: 20px;
+    max-width: 1140px;
+}
+
+.vid1{
+    background-image: url('/assets/images/Videos/real.jpg');
+    background-size: cover;
+}
+
+.vid2{
+    background-image: url('/assets/images/Videos/vid2.jpg');
+    background-size: cover;
+}
+
+.vid3{
+    background-image: url('/assets/images/Videos/vid3.jpg');
+    background-size: cover;
+}
+
+.vid4{
+    background-image: url('/assets/images/Videos/vid4.jpg');
+    background-size: cover;
+}
+
+.vid5{
+    background-image: url('/assets/images/Videos/vid5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.vid6{
+    background-image: url('/assets/images/Videos/vid6.jpg');
+    background-size: cover;
+}
+
+.videoOverlay p {
+    position: absolute;
+    bottom: 0;
+    margin-left: 15px;
+    font-size: 0.7rem;
+    color: white;
+    border-top: 0.5px solid white;
+    padding-top: 10px;
+}
+
+// .videoOverlay i {
+//     font-size: 1.5rem;
+//     color: white;
+//     margin-top: 11rem;
+// }
 
 @media (max-width:1000px){
     iframe {

@@ -11,7 +11,7 @@ import { EventsComponent } from './events/events.component';
 const routes: Routes = [
   {path:'', component: LoaderComponent},
   {path:'videos', component: VideosComponent},
-  // {path:'events', component: EventsComponent},
+  {path:'events', component: EventsComponent},
   {path:'home', component:HomeComponent},
   {path:'clients', component:ClientComponent},
   {path:'releases', component:ReleasesComponent },

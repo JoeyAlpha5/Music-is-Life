@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {MatDialog} from '@angular/material/dialog';
+import { PlayVideoComponent } from '../play-video/play-video.component';
 
 @Component({
   selector: 'app-videos',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VideosComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
 
   ngOnInit(): void {
+  }
+
+  playVid(vid){
+    const dialogRef = this.dialog.open(PlayVideoComponent,{data:{video:vid}});
   }
 
 }
